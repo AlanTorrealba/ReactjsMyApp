@@ -4,10 +4,16 @@
     font-weight: lighter;
     width: 70%;
     padding: 10px 20px 30px 40px;
+    margin: 5px;
+    height: 300px;
 }
 .bg-green{
     background-color: green;
 }
 .bg-red{
     background-color: red;
+}
+.image{
+    height: 40%;
+    
 }
