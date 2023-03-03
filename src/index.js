@@ -1,17 +1,30 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+//import { Saludar } from "./Saludar";
 //import { Greeting } from "./Greeting";
-//import { Button } from "./Button";
+// import { Button } from "./Button";
+// import { TaskCard } from "./Task";
+import { Post } from "./Post";
 //import Product from "./Product";
-import { TaskCard } from "./Task";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+// const handleChange = (e)=>{
+//   console.log(e.target.value)
+// }
 root.render(
   <>
-    {/* <Button text={"hellow hellow"} />
-   <Button text={"hellow hellow"} />
-   <Button text='' name = "Jelo"/>
-   */}
+    <Post />
+
+    {/* 
+
+  <TaskCard ready={false}></TaskCard>
+
+  <Saludar></Saludar>
+
+
+    <Button text={"hellow hellow"} />
+   <input onChange={handleChange}></input> */}
+
 
     {/*  <Greeting
       tittle="hola"
